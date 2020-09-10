@@ -16,6 +16,17 @@ def printMax (x, y, z):
      print("y=z")
  else:
      print("max z=",z)
+     
+def loop1():
+    for x in range (1, 11):
+        print(x, "Привіт")
+        
+def loop2():
+    i = 1
+    while i < 16 :
+        print(i, "Привіт")
+        i += 1
+    
 
 print("Hello Marina")
   
@@ -50,3 +61,18 @@ b=int(input())
 print("b=",b)
 
 multiply(a,b)
+
+loop1()
+
+loop2()
+
+a = "    Привіт Світ   "
+a = (a.strip())
+b = "     Привіт СВІТЛО   "
+b = (b.strip())
+print(a[0 : 5].upper() + a[5 : 11])
+print(b[0 : 8] + b[-5 : ].lower())
+
+print(a[1] +" " + b[1])
+
+
