@@ -26,6 +26,17 @@ def loop2():
     while i < 16 :
         print(i, "Привіт")
         i += 1
+        
+def sayHW () :
+    a = "    Привіт Світ   "
+    a = (a.strip())
+    b = "     Привіт СВІТЛО   "
+    b = (b.strip())
+    print(a[0 : 5].upper() + a[5 : 11])
+    print(b[0 : 8] + b[-5 : ].lower())
+    print(a[1] +" " + b[1])
+    
+
     
 
 print("Hello Marina")
@@ -66,13 +77,4 @@ loop1()
 
 loop2()
 
-a = "    Привіт Світ   "
-a = (a.strip())
-b = "     Привіт СВІТЛО   "
-b = (b.strip())
-print(a[0 : 5].upper() + a[5 : 11])
-print(b[0 : 8] + b[-5 : ].lower())
-
-print(a[1] +" " + b[1])
-
-
+sayHW ()
