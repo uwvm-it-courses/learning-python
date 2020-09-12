@@ -13,3 +13,9 @@ def demo():
 add(1, 3)
 demo()
 
+def add1( a, b, c):
+    d = a + b + c
+    print('add a,b,c', d)
+
+add1(4, 3, 6)
+
