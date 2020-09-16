@@ -1,4 +1,4 @@
-def matrix():
+def matrix1():
     N = 5
     a = []
     for i in range (N):
@@ -11,8 +11,19 @@ def matrix():
         a.append(tmp)
     for row in a:
         print(' '.join([str(elem) for elem in row]))
-        
-matrix ()
 
+
+def matrix2():
+    N = 5
+    a = [[0] * N for i in range (N)]
+    for i in range (N):
+        a[i][i] = 1
+        a[i][N-i-1] = 1
+    for row in a:
+        print(' '.join([str(elem) for elem in row]))
+    
+matrix1 ()
+print("------------")
+matrix2 ()
 
 
