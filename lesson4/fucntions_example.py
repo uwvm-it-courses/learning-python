@@ -30,8 +30,6 @@ upper_name = name.upper()
 name = name.upper()
 print(upper_name)
 
-def greeting(arg1):
-    print("Hello "+arg1)
 
 def greeting(arg1, arg2):
     name1 = "Creat " + arg1
@@ -54,4 +52,3 @@ greeting(xx, yy)
 greeting("Vanya", "Vasya")
 
 
-greeting("Maryna")
