@@ -13,10 +13,10 @@ def matrixrandom8x10 ():
         a.append(z)
     print()
     b=[]
-    i=0
-    while len(b) < N*M:
-        b += a[i]
-        i+=1
+    count=0
+    while count < N:
+        b += a[count]
+        count+=1
     print(b)
     for i in range(len(b)):
         for j in range(len(b)-1):
@@ -29,7 +29,7 @@ def matrixrandom8x10 ():
     for i in range (N):
         h =[]
         for j in range (M):
-            h.append(b[i*N + j])
+            h.append(b[i*M+j])
         print(h, end = ' ')
         print()
         g.append(h)
@@ -49,7 +49,11 @@ def matrixrandom2x3 ():
         print()
         a.append(z)
     print()
-    b = a[0] + a[1] 
+    b=[]
+    count=0
+    while count < N:
+        b += a[count]
+        count+=1
     print(b)
     for i in range(len(b)):
         for j in range(len(b)-1):
@@ -62,7 +66,7 @@ def matrixrandom2x3 ():
     for i in range (N):
         h =[]
         for j in range (M):
-            h.append(b[i*N + j])
+            h.append(b[i*M+j])
         print(h, end = ' ')
         print()
         g.append(h)
